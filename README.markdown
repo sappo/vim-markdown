@@ -13,6 +13,10 @@ To disable markdown syntax concealing add the following to your vimrc:
 
     let g:markdown_syntax_conceal = 0
 
+To highlight YAML, TOML or JSON front matter as used by Pandoc, Jekyll or Hugo.
+
+    let g:vim_markdown_frontmatter = 1
+
 Syntax highlight is synchronized in 50 lines. It may cause collapsed
 highlighting at large fenced code block.
 In the case, please set larger value in your vimrc:
